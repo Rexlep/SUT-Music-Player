@@ -8,7 +8,7 @@ import json
 from tkinter import filedialog
 from listbox.CTkListbox import *
 from messagebox.CTkMessagebox import CTkMessagebox
-from PIL import Image
+from PIL import Image, ImageTk
 from SUT_error import EmptyFileError
 
 
@@ -390,6 +390,10 @@ def split_label(frame):
 select_form = ctk.CTk()
 select_form.config(background='#252525')
 select_form.title('SUT')
+
+icon_path = ImageTk.PhotoImage(file=(os.path.join("R.ico")))
+select_form.wm_iconbitmap()
+select_form.iconphoto(False, icon_path)
 
 window_width = 1320
 window_height = 720
