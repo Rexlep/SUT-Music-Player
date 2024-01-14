@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: IHL
+Version: 0.0.1
+Summary: A package to make a hover window for your widgets in tkinter or ctkinter
+Author: Rexlep
+Author-email: rexlepyo@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
