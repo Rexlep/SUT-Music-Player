@@ -230,11 +230,6 @@ def get_song_length_and_remaining_time(full_song_path):
     sound = pygame.mixer.Sound(full_song_path)
     song_length = sound.get_length() * 1000
 
-    # Calculate the remaining time
-    remaining_time = song_length
-    remaining_minutes = int(remaining_time // 60000)
-    remaining_seconds = int((remaining_time % 60000) // 1000)
-
     # Convert the duration to minutes and seconds
     minutes = int(song_length // 60000)
     seconds = int((song_length % 60000) // 1000)
@@ -242,8 +237,6 @@ def get_song_length_and_remaining_time(full_song_path):
     # Format minutes and seconds with leading zeros if necessary
     minutes_str = str(minutes).zfill(2)
     seconds_str = str(seconds).zfill(2)
-    remaining_minutes_str = str(remaining_minutes).zfill(2)
-    remaining_seconds_str = str(remaining_seconds).zfill(2)
 
     # Update position label with current time and remaining time
     position_label.configure(text=f"{minutes_str}:{seconds_str} / Time")
@@ -328,8 +321,6 @@ def play_song(option):
                 fade_effect()
 
                 if last_played_song != selected_song:
-                    # Update the position bar and position label
-                    song_length = pygame.mixer.Sound(full_song_path).get_length()
 
                     # Clear the current selection in the listbox
                     listbox.selection_clear()
