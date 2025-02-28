@@ -1,5 +1,5 @@
 # SUT-Music-Player
-Hi i am amir and this is my music-player that i write with ctk python i hole you enjoy
+Hi i am amir and this is my music-player that i write with ctk python i hope you enjoy
 
 SUT-V2
 
