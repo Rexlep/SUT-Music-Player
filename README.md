@@ -18,3 +18,5 @@ SUT-V3
 - Spawns at center of the screen/app
 - Ctk messagebox
 - Add one song or add a folder
+
+Hope you Like it:)
