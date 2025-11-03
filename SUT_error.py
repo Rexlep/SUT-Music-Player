@@ -1,9 +1,6 @@
 import os
 from messagebox.CTkMessagebox import CTkMessagebox
 
-
-
-
 def check_empty_file(file_name, directory):
     """Check if the folder or file is empty"""
     if not file_name:  # Check if the folder is empty
