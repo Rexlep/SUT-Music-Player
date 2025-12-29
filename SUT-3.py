@@ -12,6 +12,7 @@ from PIL import Image, ImageTk
 from SUT_error import check_empty_file, extract_directory_path, extract_file_name
 from IHL.hover import Hover
 
+
 img = None
 is_playing = True
 existing_songs = []
