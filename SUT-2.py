@@ -11,7 +11,6 @@ from messagebox.CTkMessagebox import CTkMessagebox
 from PIL import Image, ImageTk
 from SUT_error import EmptyFileError
 
-
 existing_songs = []
 folder_path = ""
 selected_song = ""
