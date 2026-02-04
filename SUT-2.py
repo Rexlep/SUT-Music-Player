@@ -17,6 +17,7 @@ folder_path = ""
 selected_song = ""
 last_played_song = ""
 
+
 data = {
     'folder_path': '',
     'songs': []
