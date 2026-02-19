@@ -7,7 +7,7 @@ import random
 import json
 
 from tkinter import filedialog
-from listbox.CTkListbox import *
+from listbox.CTkListbox import 
 from messagebox.CTkMessagebox import CTkMessagebox
 from PIL import Image, ImageTk
 from SUT_error import EmptyFileError
