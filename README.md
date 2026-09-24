@@ -19,4 +19,4 @@ SUT-V3
 - Ctk messagebox
 - Add one song or add a folder
 
-Hope you Like it:)
+Hope you Like it
